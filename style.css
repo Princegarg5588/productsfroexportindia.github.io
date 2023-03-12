@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin sans', sans-serif;
+}
+
+
+.wrapper{
+  position: absolute;
+  left: 50%;
+  top: 1750%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236, 164, 1);
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.wrapper .input_field input[type="email"]{
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  height: 80px;
+  resize: none;
+
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.wrapper #error_message{
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 800px){
+  .left, .main, .right{
+    width: 100%;
+  }
+}
+
+.navbar h1{
+  display: flex;
+  align-items: flex-start;
+  height: 90vh;
+  width: ;
+}
+
+.leather{
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: 40%;
+  display: block;
+}
+
+.let{
+  display: flex;
+  align-items: flex-start;
+  font-size: 17px;
+  margin-left: 10px;
+
+}
+
+.intro{
+  display: flex;
+  align-items: flex-start;
+  font-size: 17px;
+  margin-left: 10px;
+
+}
+
+.main{
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.navbars .sec{
+  margin-left: 6%;
+  font-size: 20px;
+}
+
+.navbars a{
+  margin-left: 2%;
+  font-size: 18px;
+  line-spacing: 5px;
+}
+
+.leather-item img{
+  width: 300px;
+  height: 300px;
+  margin-right: 20%;
+  display: inline-block;
+}
+
+.leather-item p,h3{
+   margin-left: 5%;
+}
+
+.leather-items p,h3{
+  margin-left: 5%;
+}
+
+.leather-items img{
+  width: 300px;
+  height: 300px;
+  margin-right: 20%;
+  display: block;
+}
+
+.leathers{
+  width: 400px;
+  height: 400px;
+}
+
+.itemss{
+  display: inline;
+}
